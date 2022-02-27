@@ -26,11 +26,6 @@ let students = [
     }
 ]
 
-function namee(a, b){
-    if(a.firstname < b.firstname) { return -1; }
-    if(a.firstname > b.firstname) { return 1; }
-    return 0;
-}
 function sxTen(a,b){
     let tena = a.firstName
     let tenb = b.firstName
